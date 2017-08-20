@@ -1,6 +1,6 @@
-% This program uses the Class 'costFunctionClass' from "costFunctionClass.m" file.
-% Make sure both this file and the class file are in the same folder before running this program.
-% costFunctionClass.m - https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m
+% This program uses the Class from "costFunctionClass.m" file.
+% Make sure both this file 'costFunctionClassObject.m' and the class file 'costFunctionClass.m' are in the same folder before running this program.
+% URL for costFunctionClass.m - https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m
 
 
 X = [1 1; 1 2; 1 3];
