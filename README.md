@@ -7,32 +7,15 @@ The code is platform independent [tested in Windows, Mac and Linux]
 
 ### Prerequisites
 
-This code was developed and tested in Python 3.6
+This code was developed and tested in MATLAB R2017a
 
-
-### Installing
-
-Apart from having Python3, matplotlib package have to be installed
-
-For Windows/ Mac/ Linux users,
-	  Open the command prompt and type  
-
-```
-python3 get-pip.py
-pip install matplotlib
-```
-
-If there's more than one version of Python installed in the computer, type
-```
-pip3.6 install matplotlib
-```
 
 ## Details of the code
 
 As of now, there's one code in the repository. 
-As time goes by, more and more sample code will be added.
+As time goes by, more and more code will be added.
 
-[1_sorting_algo_diff_kinds_with_animation](https://github.com/PRASANTH-NTU/PYTHON_ALGORITHM/blob/master/1_sorting_algo_diff_kinds_with_animation.py) - This program sorts the randoly generated data using different sorting algorithm such as monkey sort, bubble sort, selection sort and merge sort.
+[1_costFunction](ML_COURSERA/costFunctionClassObjects.m) - This program computes the cost function for different values of theta.
 
 ##  Running the code
 #### [1_sorting_algo_diff_kinds_with_animation](https://github.com/PRASANTH-NTU/PYTHON_ALGORITHM/blob/master/1_sorting_algo_diff_kinds_with_animation.py)	  
