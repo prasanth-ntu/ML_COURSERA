@@ -1,5 +1,7 @@
 % This program uses the Class 'costFunctionClass' from "costFunctionClass.m" file.
 % Make sure both this file and the class file are in the same folder before running this program.
+% costFunctionClass.m - https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m
+
 
 X = [1 1; 1 2; 1 3];
 y = [1;2;3];
