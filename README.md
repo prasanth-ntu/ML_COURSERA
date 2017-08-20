@@ -15,7 +15,7 @@ This code was developed and tested in MATLAB R2017a
 As of now, there's one code in the repository. 
 As time goes by, more and more code will be added.
 
-[1_costFunction](ML_COURSERA/costFunctionClassObjects.m) - This program computes the cost function for different values of theta.
+[1_costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m) - This program computes the cost function for different values of theta.
 
 ##  Running the code
 #### [1_sorting_algo_diff_kinds_with_animation](https://github.com/PRASANTH-NTU/PYTHON_ALGORITHM/blob/master/1_sorting_algo_diff_kinds_with_animation.py)	  
