@@ -15,7 +15,7 @@ This code was developed and tested in MATLAB R2017a
 As of now, there's one code in the repository. 
 As time goes by, more and more code will be added.
 
-[1. costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m) - This program computes the cost function for different values of theta.
+[1. costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m) - This program computes the cost function for different values of theta & plots them on the figure along with other useful information.
 
 ##  Running the code
 #### [1. costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m)	  
@@ -25,14 +25,14 @@ As time goes by, more and more code will be added.
 
 * To create a instance of class, type
 
- ```costFunctionObject = costFunctionClass(X,y,theta)```
+    * ```costFunctionObject = costFunctionClass(X,y,theta)```
  
 * To calculate the cost function value, type
 
-**```costFunctionObject.costFunctionJx();``` 
+    * ```costFunctionObject.costFunctionJx();``` 
 
 * To plot the h(x) in a figure, type
-* ```costFunctionObject.plotGraph();``` 
+    * ```costFunctionObject.plotGraph();``` 
 
 
 ## Authors
