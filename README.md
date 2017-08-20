@@ -19,20 +19,19 @@ As time goes by, more and more code will be added.
 
 ##  Running the code
 #### [1. costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m)	  
-* Simply download the [CostFunctionClassObjects.m](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m) code and along with the [CostFunctionClass.m](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m). Make sure both .m files are in the same folder. Once you run the 'CostFunctionClassObjects.m', it will compute the cost function for 3 different theta values and plot in a 2 x 2 figure. 
+* Simply download the [CostFunctionClassObjects.m](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m) code and along with the [CostFunctionClass.m](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m). Make sure both .m files are in the same folder. Once you run the 'CostFunctionClassObjects.m', it will compute the cost function for 3 different theta values and plot in a 2 x 2 figure and the result will look like
+      ![Alt text](https://user-images.githubusercontent.com/11802709/29491992-f49add84-859f-11e7-9fc8-842709d58048.jpg?raw=true "Optional Title") 
 
 * To define your own X,y and theta values from the command window, you may directly call the class as follows 
 
-* To create a instance of class, type
+    * To create a instance of class, type
+      * ```costFunctionObject = costFunctionClass(X,y,theta)```
+      
+    * To calculate the cost function value, type
+      * ```costFunctionObject.costFunctionJx();``` 
 
-    * ```costFunctionObject = costFunctionClass(X,y,theta)```
- 
-* To calculate the cost function value, type
-
-    * ```costFunctionObject.costFunctionJx();``` 
-
-* To plot the h(x) in a figure, type
-    * ```costFunctionObject.plotGraph();``` 
+    * To plot the h(x) in a figure, type
+      * ```costFunctionObject.plotGraph();``` 
 
 
 ## Authors
