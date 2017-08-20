@@ -15,19 +15,23 @@ This code was developed and tested in MATLAB R2017a
 As of now, there's one code in the repository. 
 As time goes by, more and more code will be added.
 
-[1_costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m) - This program computes the cost function for different values of theta.
+[1_costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m) - This program computes the cost function for different values of theta.
 
 ##  Running the code
-#### [1_sorting_algo_diff_kinds_with_animation](https://github.com/PRASANTH-NTU/PYTHON_ALGORITHM/blob/master/1_sorting_algo_diff_kinds_with_animation.py)	  
-* Simply download the code and double click to run it. The code will open a figure in which the 200 unsorted data points from 0 to 199 will be sorted in real time. Everytime, when you run the code, it will randomly choose a sorting algo and implement it.
-* By running the code in the command prompt/ terminal with arguments, the functionality of the code can be modified
-* To run the code in the command prompt/ terminal, type
+#### [1_costFunction](https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClassObjects.m)	  
+* Simply download the code and along with the 'CostFunctionClass.m'. Once you run the 'CostFunctionClassObjects.m', it will compute the cost function for 3 different theta values and plot in a 2 x 2 figure. 
 
- ```python3 1_sorting_algo_diff_kinds_with_animation.py [algo_id] [data_size] [interval]```
-* The 3 arguments beside the file name are optional
-* ```[algo id]``` should be 1, 2, 3 or 4. 1 to run Bogo sort, 2 to run Bubble sort, 3 to run Selection sort, 4 to run Merge sort.
-* ```[data_size]``` can be of any size. Default is 200.
-* ```[interval]``` is the interval (in ms) at which the figure have to be updates. Default is 50 ms.
+* To define your own X,y and theta values from the command window, you may directly call the class as follows 
+
+* To create a instance of class, type
+
+ ```costFunctionObject = costFunctionClass(X,y,theta)```
+ 
+* To calculate the cost function value, type
+* ```costFunctionObject.costFunctionJx();``` 
+
+* To plot the h(x) in a figure, type
+* ```costFunctionObject.plotGraph();``` 
 
 
 ## Authors
