@@ -1,4 +1,4 @@
-% This program uses the Class from "costFunctionClass.m" file.
+% This program uses the Class from "costFunctionClass.m" file to compute and plot the cost function for different theta values.
 % Make sure both this file 'costFunctionClassObject.m' and the class file 'costFunctionClass.m' are in the same folder before running this program.
 % URL for costFunctionClass.m - https://github.com/PRASANTH-NTU/ML_COURSERA/blob/master/costFunctionClass.m
 
